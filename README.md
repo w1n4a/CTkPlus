@@ -35,7 +35,7 @@ app.geometry("400x300")
 app.title("CTkPlus Test")
 
 # Create and place a spinbox
-spinbox = ctp.CTkSpinBox(master=app, start_value=0, min_value=0, max_value=100)
+spinbox = ctp.CTkSpinBox(master=app,command=lambda *args: print(spinbox.get())))
 spinbox.pack(pady=50, padx=50)
 
 app.mainloop()
@@ -48,7 +48,7 @@ This project is licensed under the **MIT** License. You are free to use and modi
 
 ## Русский
 
-**CTkPlus** — это библиотека для CustomTkinter, которая добавляет новые полезные виджеты и элементы управления, чтобы не создавать их вручную с нуля.
+command=lambda *args: print(spinbox.get()))а для CustomTkinter, которая добавляет новые полезные виджеты и элементы управления, чтобы не создавать их вручную с нуля.
 
 > ⚠️ **Проект находится в разработке:** Сейчас идет этап бета-тестирования, поэтому могут встречаться баги.
 
@@ -74,7 +74,7 @@ app.geometry("400x300")
 app.title("CTkPlus Тест")
 
 # Создаем и размещаем спинбокс
-spinbox = ctp.CTkSpinBox(master=app, start_value=0, min_value=0, max_value=100)
+spinbox = ctp.CTkSpinBox(master=app, command=lambda *args: print(spinbox.get()))
 spinbox.pack(pady=50, padx=50)
 
 app.mainloop()
