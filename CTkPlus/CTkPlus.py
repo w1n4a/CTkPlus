@@ -14,8 +14,10 @@ class CTkEntryButton(tk.CTkFrame):
         return self.entry.get()
     
 class CTkSpinBox(tk.CTkFrame):
-    def __init__(self, master,command=lambda *args: None,start_num=0,bg_color="transparent", fg_color="transparent", **kwargs):
+    def __init__(self, master,command=lambda *args: None,step=1,range=(0,100),start_num=0,bg_color="transparent", fg_color="transparent", **kwargs):
         super().__init__(master,bg_color=bg_color,fg_color=fg_color)
+        
+        self.range = range
         
         self.string = tk.StringVar(value=str(start_num))
         self.string.trace_add('write',command)
@@ -26,32 +28,40 @@ class CTkSpinBox(tk.CTkFrame):
         self.frame = tk.CTkFrame(self)
         self.frame.pack(side='left')
         
-        self.button = tk.CTkButton(self.frame,width=15,height=14,text='▲',font=('Impact',5,'bold'),corner_radius=0,command=lambda: self.plus(1))
+        self.button = tk.CTkButton(self.frame,width=15,height=14,text='▲',font=('Impact',5,'bold'),corner_radius=0,command=lambda: self.plus(step))
         self.button.pack(side='top',pady=0)
         
-        self.button2 = tk.CTkButton(self.frame,width=15,height=14,text='▼',font=('Impact',5,'bold'),corner_radius=0,command=lambda: self.minus(1))
+        self.button2 = tk.CTkButton(self.frame,width=15,height=14,text='▼',font=('Impact',5,'bold'),corner_radius=0,command=lambda: self.minus(step))
         self.button2.pack(side='bottom',pady=0)
         
     def plus(self,*args):
         try:
             r = self.string.get()
-            self.string.set(str(int(r)+sum(args)))
-            return self.string.get()
+            if int(r) + sum(args) <= self.range[1]:
+                self.string.set(str(int(r)+sum(args)))
+                return self.string.get()
+            else:
+                self.string.set(self.range[1])
+                return self.string.get()
         except:
             pass
     
     def minus(self, *args):
         try:
             r = self.string.get()
-            self.string.set(str(int(r)-sum(args)))
-            return self.string.get()
+            if int(r) - sum(args) >= self.range[0]:
+                self.string.set(str(int(r)-sum(args)))
+                return self.string.get()
+            else:
+                self.string.set(self.range[0])
+                return self.string.get()
         except:
             pass
         
     def get(self):
         return self.string.get()
     
-    def edit(self, pos: int):
+    def set(self, pos: int):
         if type(pos) == type(1):
             self.string.set(str(pos))
             return self.string.get()
@@ -110,7 +120,7 @@ class CTkCelector(tk.CTkFrame):
             
         return self.string.get()
     
-    def edit(self, pos: int):
+    def set(self, pos: int):
         if type(pos) == type(1) and pos < len(self.val):
             self.cur = pos
             self.string.set(self.val[self.cur])
