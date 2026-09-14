@@ -14,9 +14,9 @@
 > ⚠️ **Project is under development:** It is currently in beta testing, so bugs may occur.
 
 ### ✨ Features
-- **🧩 New components** — adds UI elements that are missing in the standard toolkit.
-- **🛠️ Native style** — the look of the elements completely matches standard CustomTkinter widgets.
-- **⚡ Simple setup** — the library easily connects to the project and works without complex workarounds.
+- **🧩 New components** - adds UI elements that are missing in the standard toolkit.
+- **🛠️ Native style** - the look of the elements completely matches standard CustomTkinter widgets.
+- **⚡ Simple setup** - the library easily connects to the project and works without complex workarounds.
 
 ### 📥 Installation
 Install the library via terminal:
@@ -53,9 +53,9 @@ command=lambda *args: print(spinbox.get()))а для CustomTkinter, котора
 > ⚠️ **Проект находится в разработке:** Сейчас идет этап бета-тестирования, поэтому могут встречаться баги.
 
 ### ✨ Возможности (Features)
-- **🧩 Новые компоненты** — добавляет элементы интерфейса, которых изначально нет в стандартном наборе.
-- **🛠️ Нативный стиль** — внешний вид элементов полностью совпадает со стандартными виджетами CustomTkinter.
-- **⚡ Простая настройка** — библиотека легко подключается к проекту и работает без сложных костылей.
+- **🧩 Новые компоненты** - добавляет элементы интерфейса, которых изначально нет в стандартном наборе.
+- **🛠️ Нативный стиль** - внешний вид элементов полностью совпадает со стандартными виджетами CustomTkinter.
+- **⚡ Простая настройка** - библиотека легко подключается к проекту и работает без сложных костылей.
 
 ### 📥 Установка (Installation)
 Установите библиотеку через терминал:
