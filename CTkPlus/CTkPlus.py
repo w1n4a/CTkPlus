@@ -69,11 +69,11 @@ class CTkSpinBox(tk.CTkFrame):
             return TypeError()
     
 class CTkEntry(tk.CTkEntry):
-    def __init__(self, master, width = 140, height = 28, corner_radius = None, border_width = None, bg_color = "transparent", fg_color = None, border_color = None, text_color = None, placeholder_text_color = None, textvariable = None, placeholder_text = None, font = None, command=lambda *args: None, **kwargs):
-        super().__init__(master, width, height, corner_radius, border_width, bg_color, fg_color, border_color, text_color, placeholder_text_color, textvariable, placeholder_text, font, **kwargs)
+    def __init__(self, master, command_type = 'write', text='', width = 140, height = 28, corner_radius = None, border_width = None, bg_color = "transparent", fg_color = None, border_color = None, text_color = None, placeholder_text_color = None, placeholder_text = None, font = None, command=lambda *args: None, **kwargs):
+        super().__init__(master, width, height, corner_radius, border_width, bg_color, fg_color, border_color, text_color, placeholder_text_color, placeholder_text, font, **kwargs)
         
-        self.string = tk.StringVar()
-        self.string.trace_add('write',command)
+        self.string = tk.StringVar(value=text)
+        self.string.trace_add(command_type,command)
         self.configure(textvariable=self.string)
         
 class CTkCelector(tk.CTkFrame):
