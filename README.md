@@ -35,7 +35,7 @@ app.geometry("400x300")
 app.title("CTkPlus Test")
 
 # Create and place a spinbox
-spinbox = ctp.CTkSpinBox(master=app, start_num=5, range=(-10,10), step=5, command=lambda *args: print(spinbox.get()))
+spinbox = ctp.CTkSpinBox(master=app, start_num=5, range=(-10,'inf'), step=5, command=lambda *args: print(spinbox.get()))
 spinbox.pack(pady=50, padx=50)
 
 app.mainloop()
@@ -74,7 +74,7 @@ app.geometry("400x300")
 app.title("CTkPlus Тест")
 
 # Создаем и размещаем спинбокс
-spinbox = ctp.CTkSpinBox(master=app, start_num=5, range=(-10,10), step=5, command=lambda *args: print(spinbox.get()))
+spinbox = ctp.CTkSpinBox(master=app, start_num=5, range=(-10,'inf'), step=5, command=lambda *args: print(spinbox.get()))
 spinbox.pack(pady=50, padx=50)
 
 app.mainloop()
