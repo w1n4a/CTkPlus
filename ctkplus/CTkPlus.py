@@ -130,3 +130,39 @@ class CTkCelector(tk.CTkFrame):
 
     def get(self):
         return self.string.get()
+
+class CTkMultiList(tk.CTkFrame):
+    def __init__(self, master, values=[], command=None, width=200, height=150, **kwargs):
+        super().__init__(master=master, width=width, height=height)
+
+        self.pack_propagate(False)
+
+        self.result = []
+        self.values = values
+        self.command = command
+
+        self.label = tk.CTkLabel(self,text='Выбери цвет!')
+        self.label.pack()
+
+        self.slideframe = tk.CTkScrollableFrame(self, fg_color=self._fg_color,scrollbar_fg_color='transparent',scrollbar_button_color=self._fg_color, scrollbar_button_hover_color=self._fg_color)
+        self.slideframe.pack(pady=2)
+
+        self.update()
+
+    def update(self):
+        for i in self.values:
+            a = tk.CTkCheckBox(self.slideframe,text=i)
+            a.configure(command=lambda i=i, a=a: self.add(i, a.get()))
+            a.pack(pady=2)
+
+    def get(self):
+        return self.result
+
+    def add(self,t,i):
+        match i:
+            case 1:
+                self.result.append(t)
+            case 0:
+                self.result.remove(t)
+
+        self.command()
