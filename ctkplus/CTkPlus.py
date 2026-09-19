@@ -14,7 +14,7 @@ class CTkEntryButton(tk.CTkFrame):
         return self.entry.get()
     
 class CTkSpinBox(tk.CTkFrame):
-    def __init__(self, master,command=lambda *args: None,step=1,range=(0,'inf'),start_num=0,bg_color="transparent", fg_color="transparent", **kwargs):
+    def __init__(self, master,command=lambda *args: None,step=1,range=('inf','inf'),start_num=0,bg_color="transparent", fg_color="transparent", **kwargs):
         super().__init__(master,bg_color=bg_color,fg_color=fg_color)
         
         self.range = range
@@ -49,7 +49,7 @@ class CTkSpinBox(tk.CTkFrame):
     def minus(self, *args):
         try:
             r = self.string.get()
-            if int(r) - sum(args) >= self.range[0]:
+            if self.range[0] == 'inf' or int(r) - sum(args) >= self.range[0]:
                 self.string.set(str(int(r)-sum(args)))
                 return self.string.get()
             else:
