@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "CTkPlus"
-version = "0.1.2"
+name = "ctkplus"
+version = "0.1.4"
 description = "vidgets for customtkinter"
 dependencies = [
     "customtkinter",
