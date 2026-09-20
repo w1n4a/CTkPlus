@@ -76,7 +76,7 @@ class CTkEntry(tk.CTkEntry):
         self.string.trace_add(command_type,command)
         self.configure(textvariable=self.string)
 
-class CTkCelector(tk.CTkFrame):
+class CTkSelector(tk.CTkFrame):
     def __init__(self, master,current=0,values=[],command=lambda *args: None,start_num=0,bg_color="transparent", fg_color="transparent", **kwargs):
         super().__init__(master,bg_color=bg_color,fg_color=fg_color)
 
@@ -126,7 +126,7 @@ class CTkCelector(tk.CTkFrame):
             self.string.set(self.val[self.cur])
             return self.string.get()
         else:
-            return TypeError()
+            raise TypeError()
 
     def get(self):
         return self.string.get()
@@ -158,11 +158,12 @@ class CTkMultiList(tk.CTkFrame):
     def get(self):
         return self.result
 
-    def change(self, name: str, id: int):
-        match id:
-            case 1:
-                self.result.append(name)
-            case 0:
-                self.result.remove(name)
+    def change(self, name: str, act: str):
+        if act == 1 or act == 'add':
+            self.result.append(name)
+        elif act == 0 or act == 'remove':
+            self.result.remove(name)
+        else:
+            raise ValueError(f'Invalid action: {act}')
 
         self.command()
