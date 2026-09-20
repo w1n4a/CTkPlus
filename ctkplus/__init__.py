@@ -1,1 +1,1 @@
-from .CTkPlus import CTkEntryButton, CTkSpinBox, CTkEntry, CTkCelector 
+from .CTkPlus import CTkEntryButton, CTkSpinBox, CTkEntry, CTkSelector
