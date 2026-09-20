@@ -132,7 +132,7 @@ class CTkSelector(tk.CTkFrame):
         return self.string.get()
 
 class CTkMultiList(tk.CTkFrame):
-    def __init__(self, master, text='', values=[], command=lambda: None, width=200, height=150, fg_color=None, text_color='white', label_fg_color='transparent', checkbox_fg_color=None, checkbox_hover_color=None, checkbox_text_color='white', **kwargs):
+    def __init__(self, master, text='', values=[], command=lambda: None, width=200, height=150, fg_color=None, text_color='white', label_fg_color='transparent', checkbox_fg_color=None, checkbox_hover_color=None, border_width=1, border_color=None, checkbox_text_color='white', **kwargs):
         super().__init__(master=master, width=width, height=height, fg_color=fg_color, **kwargs)
 
         self.checkbox_fg_color = checkbox_fg_color
@@ -145,10 +145,10 @@ class CTkMultiList(tk.CTkFrame):
         self.values = values
         self.command = command
 
-        self.label = tk.CTkLabel(self, text=text, text_color=text_color, fg_color=label_fg_color)
+        self.label = tk.CTkLabel(self, text=text, text_color=text_color, fg_color=label_fg_color,border_color=border_color, border_width=border_width)
         self.label.pack(fill='x')
 
-        self.slideframe = tk.CTkScrollableFrame(self, fg_color=fg_color, scrollbar_fg_color='transparent', scrollbar_button_color=fg_color, scrollbar_button_hover_color=fg_color)
+        self.slideframe = tk.CTkScrollableFrame(self, fg_color=fg_color, scrollbar_fg_color='transparent', border_color=border_color, border_width=border_width, scrollbar_button_color=fg_color, scrollbar_button_hover_color=fg_color)
         self.slideframe.pack(pady=2)
 
         self.update()
