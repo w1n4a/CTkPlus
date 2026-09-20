@@ -15,3 +15,4 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/w1n4a/CTkPlus"
+Repository = "https://github.com/w1n4a/CTkPlus"
