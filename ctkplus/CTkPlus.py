@@ -161,8 +161,8 @@ class CTkMultiList(tk.CTkFrame):
     def change(self, name: str, id: int):
         match id:
             case 1:
-                self.result.append(t)
+                self.result.append(name)
             case 0:
-                self.result.remove(t)
+                self.result.remove(name)
 
         self.command()
