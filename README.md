@@ -8,7 +8,7 @@
 ---
 
 <p align="center">
-  <img src="баннер.jpg" alt="CTkPlus Showcase" width="600">
+  <img src="banner.jpg" alt="CTkPlus Showcase" width="600">
 </p>
 
 ---
