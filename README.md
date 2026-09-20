@@ -7,6 +7,12 @@
 
 ---
 
+<p align="center">
+  <img src="баннер.jpg" alt="CTkPlus Showcase" width="600">
+</p>
+
+---
+
 ## English
 
 **CTkPlus** is a library for CustomTkinter that adds new useful widgets and UI elements, so you don't have to create them manually from scratch.
