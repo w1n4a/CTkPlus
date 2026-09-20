@@ -132,7 +132,7 @@ class CTkCelector(tk.CTkFrame):
         return self.string.get()
 
 class CTkMultiList(tk.CTkFrame):
-    def __init__(self, master, values=[], command=None, width=200, height=150, **kwargs):
+    def __init__(self, master, text='', values=[], command=None, width=200, height=150, **kwargs):
         super().__init__(master=master, width=width, height=height)
 
         self.pack_propagate(False)
@@ -141,7 +141,7 @@ class CTkMultiList(tk.CTkFrame):
         self.values = values
         self.command = command
 
-        self.label = tk.CTkLabel(self,text='Выбери цвет!')
+        self.label = tk.CTkLabel(self,text=text)
         self.label.pack()
 
         self.slideframe = tk.CTkScrollableFrame(self, fg_color=self._fg_color,scrollbar_fg_color='transparent',scrollbar_button_color=self._fg_color, scrollbar_button_hover_color=self._fg_color)
