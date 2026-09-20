@@ -152,14 +152,14 @@ class CTkMultiList(tk.CTkFrame):
     def update(self):
         for i in self.values:
             a = tk.CTkCheckBox(self.slideframe,text=i)
-            a.configure(command=lambda i=i, a=a: self.add(i, a.get()))
+            a.configure(command=lambda i=i, a=a: self.change(i, a.get()))
             a.pack(pady=2)
 
     def get(self):
         return self.result
 
-    def add(self,t,i):
-        match i:
+    def change(self, name: str, id: int):
+        match id:
             case 1:
                 self.result.append(t)
             case 0:
