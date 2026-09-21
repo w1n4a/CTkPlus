@@ -4,8 +4,13 @@
 [![License: MIT](https://shields.io)](https://opensource.org)
 
 <p align="left">
-  <a href="#english"><img src="https://shields.io" alt="English"></a>
-  <a href="#русский"><img src="https://shields.io" alt="Русский"></a>
+  <a href="#english" style="text-decoration: none;">
+    <kbd style="background-color: #1f2328; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px; padding: 5px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 14px;">🇺🇸 English</kbd>
+  </a>
+  &nbsp;
+  <a href="#русский" style="text-decoration: none;">
+    <kbd style="background-color: #1f2328; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px; padding: 5px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 14px;">🇷🇺 Русский</kbd>
+  </a>
 </p>
 
 ---
