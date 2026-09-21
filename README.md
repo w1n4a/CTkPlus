@@ -1,28 +1,23 @@
 # 📦 CTkPlus
 
 <p align="left">
-
-  <a href="#english" style="text-decoration: none; margin-right: 8px;">
-    <kbd style="background-color: #21262d; color: #ecf2f8; border: 2px solid #363b42; border-bottom: 5px solid #363b42; border-radius: 8px; padding: 10px 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 15px; display: inline-block; box-shadow: 0 4px 0 #121519; vertical-align: middle;">🇺🇸 English</kbd>
+  <!-- Лаконичные переключатели языков -->
+  <a href="#english" style="text-decoration: none; margin-right: 6px;">
+    <kbd style="background-color: #21262d; color: #ecf2f8; border: 1px solid #363b42; border-radius: 6px; padding: 4px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; font-size: 13px; display: inline-block; vertical-align: middle;">🇺🇸 English</kbd>
   </a>
-  <a href="#русский" style="text-decoration: none; margin-right: 24px;">
-    <kbd style="background-color: #21262d; color: #ecf2f8; border: 2px solid #363b42; border-bottom: 5px solid #363b42; border-radius: 8px; padding: 10px 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 15px; display: inline-block; box-shadow: 0 4px 0 #121519; vertical-align: middle;">🇷🇺 Русский</kbd>
-  </a>
-  
-  <a href="https://github.com" target="_blank" style="text-decoration: none; margin-right: 8px;">
-    <kbd style="background-color: #238636; color: #ffffff; border: 2px solid #2ea043; border-bottom: 5px solid #2ea043; border-radius: 8px; padding: 10px 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 15px; display: inline-block; box-shadow: 0 4px 0 #14461b; vertical-align: middle;">
-      💻 GitHub &nbsp;<img src="https://shields.io" alt="Stars" style="vertical-align: middle; margin-top: -3px;">
-    </kbd>
-  </a>
-  
-  <a href="https://pypi.org" target="_blank" style="text-decoration: none;">
-    <kbd style="background-color: #1f6feb; color: #ffffff; border: 2px solid #388bfd; border-bottom: 5px solid #388bfd; border-radius: 8px; padding: 10px 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 15px; display: inline-block; box-shadow: 0 4px 0 #113e87; vertical-align: middle;">
-      📦 PyPI &nbsp;<img src="https://shields.io" alt="Downloads" style="vertical-align: middle; margin-top: -3px;">
-    </kbd>
+  <a href="#русский" style="text-decoration: none; margin-right: 16px变量;">
+    <kbd style="background-color: #21262d; color: #ecf2f8; border: 1px solid #363b42; border-radius: 6px; padding: 4px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; font-size: 13px; display: inline-block; vertical-align: middle;">🇷🇺 Русский</kbd>
   </a>
 </p>
 
----
+<p align="left">
+  <!-- Официальные бейджи как у CustomTkinter -->
+  <a href="https://pypi.org" target="_blank"><img src="https://shields.io" alt="PyPI Version" style="vertical-align: middle; margin-right: 2px;"></a>
+  <a href="https://pypi.org" target="_blank"><img src="https://shields.io" alt="PyPI Downloads" style="vertical-align: middle; margin-right: 2px;"></a>
+  <a href="https://github.com" target="_blank"><img src="https://shields.io" alt="GitHub Stars" style="vertical-align: middle; margin-right: 2px;"></a>
+  <a href="https://opensource.org" target="_blank"><img src="https://shields.io" alt="License MIT" style="vertical-align: middle; margin-right: 2px;"></a>
+  <a href="https://python.org" target="_blank"><img src="https://shields.io" alt="Python Versions" style="vertical-align: middle;"></a>
+</p>
 
 ---
 
