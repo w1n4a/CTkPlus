@@ -1,16 +1,28 @@
 # 📦 CTkPlus
 
-[![Python Version](https://shields.io)](https://python.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
-
 <p align="left">
-  <a href="#english" style="text-decoration: none; margin-right: 12px;">
-    <kbd style="background-color: #21262d; color: #ecf2f8; border: 2px solid #363b42; border-bottom: 4px solid #363b42; border-radius: 8px; padding: 8px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 16px; display: inline-block; cursor: pointer; box-shadow: 0 4px 0 #121519;">🇺🇸 English</kbd>
+
+  <a href="#english" style="text-decoration: none; margin-right: 8px;">
+    <kbd style="background-color: #21262d; color: #ecf2f8; border: 2px solid #363b42; border-bottom: 5px solid #363b42; border-radius: 8px; padding: 10px 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 15px; display: inline-block; box-shadow: 0 4px 0 #121519; vertical-align: middle;">🇺🇸 English</kbd>
   </a>
-  <a href="#русский" style="text-decoration: none;">
-    <kbd style="background-color: #21262d; color: #ecf2f8; border: 2px solid #363b42; border-bottom: 4px solid #363b42; border-radius: 8px; padding: 8px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 16px; display: inline-block; cursor: pointer; box-shadow: 0 4px 0 #121519;">🇷🇺 Русский</kbd>
+  <a href="#русский" style="text-decoration: none; margin-right: 24px;">
+    <kbd style="background-color: #21262d; color: #ecf2f8; border: 2px solid #363b42; border-bottom: 5px solid #363b42; border-radius: 8px; padding: 10px 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 15px; display: inline-block; box-shadow: 0 4px 0 #121519; vertical-align: middle;">🇷🇺 Русский</kbd>
+  </a>
+  
+  <a href="https://github.com" target="_blank" style="text-decoration: none; margin-right: 8px;">
+    <kbd style="background-color: #238636; color: #ffffff; border: 2px solid #2ea043; border-bottom: 5px solid #2ea043; border-radius: 8px; padding: 10px 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 15px; display: inline-block; box-shadow: 0 4px 0 #14461b; vertical-align: middle;">
+      💻 GitHub &nbsp;<img src="https://shields.io" alt="Stars" style="vertical-align: middle; margin-top: -3px;">
+    </kbd>
+  </a>
+  
+  <a href="https://pypi.org" target="_blank" style="text-decoration: none;">
+    <kbd style="background-color: #1f6feb; color: #ffffff; border: 2px solid #388bfd; border-bottom: 5px solid #388bfd; border-radius: 8px; padding: 10px 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 15px; display: inline-block; box-shadow: 0 4px 0 #113e87; vertical-align: middle;">
+      📦 PyPI &nbsp;<img src="https://shields.io" alt="Downloads" style="vertical-align: middle; margin-top: -3px;">
+    </kbd>
   </a>
 </p>
+
+---
 
 ---
 
