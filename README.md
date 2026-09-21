@@ -5,8 +5,8 @@
   <a href="#english" style="text-decoration: none;"><img src="https://shields.io🇺🇸_English-21262d?style=flat-square" alt="English"></a>
   <a href="#русский" style="text-decoration: none;"><img src="https://shields.io🇷🇺_Русский-21262d?style=flat-square" alt="Русский"></a>
   <!-- Статистика -->
-  <a href="https://pypi.org" target="_blank"><img src="https://shields.io" alt="PyPI Version"></a>
-  <a href="https://pypi.org" target="_blank"><img src="https://shields.io" alt="PyPI Downloads"></a>
+  <a href="https://pypi.org/project/CTkPlus/" target="_blank"><img src="https://shields.io" alt="PyPI Version"></a
+  <a href="https://pypi.org/project/CTkPlus/" target="_blank"><img src="https://shields.io" alt="PyPI Downloads"><
   <a href="https://github.com" target="_blank"><img src="https://shields.io" alt="GitHub Stars"></a>
   <a href="https://opensource.org" target="_blank"><img src="https://shields.io" alt="License MIT"></a>
 </p>
