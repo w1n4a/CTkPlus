@@ -3,7 +3,7 @@
 [![Python Version](https://shields.io)](https://python.org)
 [![License: MIT](https://shields.io)](https://opensource.org)
 
-🇺🇸 [Read in English](#english) | 🇷🇺 [Читать на русском](#русский)
+🇺🇸 <a href="#english">Read in English</a> | 🇷🇺 <a href="#русский">Читать на русском</a>
 
 ---
 
@@ -13,7 +13,7 @@
 
 ---
 
-## English
+<h2 id="english">English</h2>
 
 **CTkPlus** is a library for CustomTkinter that adds new useful widgets and UI elements, so you don't have to create them manually from scratch.
 
@@ -23,6 +23,40 @@
 - **🧩 New components** - adds UI elements that are missing in the standard toolkit.
 - **🛠️ Native style** - the look of the elements completely matches standard CustomTkinter widgets.
 - **⚡ Simple setup** - the library easily connects to the project and works without complex workarounds.
+
+### 🍱 Available Widgets
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="30%">Widget</th>
+      <th align="left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CTkSpinBox</strong></td>
+      <td>Step-by-step number selector with arrow buttons</td>
+    </tr>
+    <tr>
+      <td><strong>CTkSelector</strong></td>
+      <td>Convenient widget for selecting options</td>
+    </tr>
+    <tr>
+      <td><strong>CTkMultiList</strong></td>
+      <td>Multi-selection list for complex data handling</td>
+    </tr>
+    <tr>
+      <td><strong>CTkEntry</strong></td>
+      <td>Upgraded text input with built-in StringVar commands</td>
+    </tr>
+    <tr>
+      <td><strong>CTkEntryButton</strong></td>
+      <td>Combined entry field with an attached action button</td>
+    </tr>
+  </tbody>
+</table>
+
+> 🚀 **More widgets coming soon!** The library is actively expanding. If you have an idea for a cool new widget, feel free to open an Issue or write to me!
 
 ### 📥 Installation
 Install the library via terminal:
@@ -52,7 +86,7 @@ This project is licensed under the **MIT** License. You are free to use and modi
 
 ---
 
-## Русский
+<h2 id="русский">Русский</h2>
 
 **CTkPlus** - это библиотека для CustomTkinter, которая добавляет новые полезные виджеты и элементы управления, чтобы не создавать их вручную с нуля.
 
@@ -63,8 +97,42 @@ This project is licensed under the **MIT** License. You are free to use and modi
 - **🛠️ Нативный стиль** - внешний вид элементов полностью совпадает со стандартными виджетами CustomTkinter.
 - **⚡ Простая настройка** - библиотека легко подключается к проекту и работает без сложных костылей.
 
+### 🍱 Доступные виджеты (Widgets List)
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="30%">Виджет</th>
+      <th align="left">Описание</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CTkSpinBox</strong></td>
+      <td>Пошаговый выбор чисел с кнопками-стрелочками</td>
+    </tr>
+    <tr>
+      <td><strong>CTkSelector</strong></td>
+      <td>Удобный элемент для выбора нужного варианта</td>
+    </tr>
+    <tr>
+      <td><strong>CTkMultiList</strong></td>
+      <td>Список со множественным выбором для сложных данных</td>
+    </tr>
+    <tr>
+      <td><strong>CTkEntry</strong></td>
+      <td>Прокачанное поле ввода со встроенными командами через StringVar</td>
+    </tr>
+    <tr>
+      <td><strong>CTkEntryButton</strong></td>
+      <td>Удобное текстовое поле, совмещенное с кнопкой действия</td>
+    </tr>
+  </tbody>
+</table>
+
+> 🚀 **Новые виджеты уже на подходе!** Библиотека активно развивается и пополняется. Есть крутая идея для нового элемента? Смело открывай Issue или пиши мне!
+
 ### 📥 Установка (Installation)
-Установите библиотеку через терминал:
+Установите библиотеку через terminal:
 ```bash
 pip install ctkplus
 ```
