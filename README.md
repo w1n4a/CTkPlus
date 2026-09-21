@@ -1,8 +1,8 @@
 # 📦 CTkPlus
 
-[![| Python Version ](https://shields.io)](https://python.org)
-[![| License: MIT |](https://shields.io)](https://opensource.org)
-[![ PyPI Downloads |](https://shields.io)](https://pypi.org/project/CTkPlus/)
+[![Python Version  ](https://shields.io)](https://python.org)
+[![  License: MIT  ](https://shields.io)](https://opensource.org)
+[![  PyPI Downloads](https://shields.io)](https://pypi.org/project/CTkPlus/)
 
 🇺🇸 <a href="#english">Read in English</a> | 🇷🇺 <a href="#русский">Читать на русском</a>
 
