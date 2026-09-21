@@ -4,12 +4,11 @@
 [![License: MIT](https://shields.io)](https://opensource.org)
 
 <p align="left">
-  <a href="#english" style="text-decoration: none;">
-    <kbd style="background-color: #1f2328; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px; padding: 5px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 14px;">🇺🇸 English</kbd>
+  <a href="#english" style="text-decoration: none; margin-right: 12px;">
+    <kbd style="background-color: #21262d; color: #ecf2f8; border: 2px solid #363b42; border-bottom: 4px solid #363b42; border-radius: 8px; padding: 8px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 16px; display: inline-block; cursor: pointer; box-shadow: 0 4px 0 #121519;">🇺🇸 English</kbd>
   </a>
-  &nbsp;
   <a href="#русский" style="text-decoration: none;">
-    <kbd style="background-color: #1f2328; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px; padding: 5px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: bold; font-size: 14px;">🇷🇺 Русский</kbd>
+    <kbd style="background-color: #21262d; color: #ecf2f8; border: 2px solid #363b42; border-bottom: 4px solid #363b42; border-radius: 8px; padding: 8px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 800; font-size: 16px; display: inline-block; cursor: pointer; box-shadow: 0 4px 0 #121519;">🇷🇺 Русский</kbd>
   </a>
 </p>
 
