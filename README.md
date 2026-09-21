@@ -1,9 +1,7 @@
 # 📦 CTkPlus
 
-<p align="left">
-  <img src="https://shields.io" alt="Python">
-  <img src="https://shields.io" alt="License">
-</p>
+[![Python Version](https://python.org)
+[![License: MIT](https://opensource.org)
 
 🇺🇸 <a href="#english">Read in English</a> | 🇷🇺 <a href="#русский">Читать на русском</a>
 
