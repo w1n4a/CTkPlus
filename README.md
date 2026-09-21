@@ -1,22 +1,14 @@
 # 📦 CTkPlus
 
 <p align="left">
-  <!-- Лаконичные переключатели языков -->
-  <a href="#english" style="text-decoration: none; margin-right: 6px;">
-    <kbd style="background-color: #21262d; color: #ecf2f8; border: 1px solid #363b42; border-radius: 6px; padding: 4px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; font-size: 13px; display: inline-block; vertical-align: middle;">🇺🇸 English</kbd>
-  </a>
-  <a href="#русский" style="text-decoration: none; margin-right: 16px变量;">
-    <kbd style="background-color: #21262d; color: #ecf2f8; border: 1px solid #363b42; border-radius: 6px; padding: 4px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; font-size: 13px; display: inline-block; vertical-align: middle;">🇷🇺 Русский</kbd>
-  </a>
-</p>
-
-<p align="left">
-  <!-- Официальные бейджи как у CustomTkinter -->
-  <a href="https://pypi.org" target="_blank"><img src="https://shields.io" alt="PyPI Version" style="vertical-align: middle; margin-right: 2px;"></a>
-  <a href="https://pypi.org" target="_blank"><img src="https://shields.io" alt="PyPI Downloads" style="vertical-align: middle; margin-right: 2px;"></a>
-  <a href="https://github.com" target="_blank"><img src="https://shields.io" alt="GitHub Stars" style="vertical-align: middle; margin-right: 2px;"></a>
-  <a href="https://opensource.org" target="_blank"><img src="https://shields.io" alt="License MIT" style="vertical-align: middle; margin-right: 2px;"></a>
-  <a href="https://python.org" target="_blank"><img src="https://shields.io" alt="Python Versions" style="vertical-align: middle;"></a>
+  <!-- Переключатели языков -->
+  <a href="#english" style="text-decoration: none;"><img src="https://shields.io🇺🇸_English-21262d?style=flat-square" alt="English"></a>
+  <a href="#русский" style="text-decoration: none;"><img src="https://shields.io🇷🇺_Русский-21262d?style=flat-square" alt="Русский"></a>
+  <!-- Статистика -->
+  <a href="https://pypi.org" target="_blank"><img src="https://shields.io" alt="PyPI Version"></a>
+  <a href="https://pypi.org" target="_blank"><img src="https://shields.io" alt="PyPI Downloads"></a>
+  <a href="https://github.com" target="_blank"><img src="https://shields.io" alt="GitHub Stars"></a>
+  <a href="https://opensource.org" target="_blank"><img src="https://shields.io" alt="License MIT"></a>
 </p>
 
 ---
