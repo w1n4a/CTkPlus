@@ -1,7 +1,9 @@
 # 📦 CTkPlus
 
-[![Python Version](https://shields.io)](https://python.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
+<p align="left">
+  <img src="https://shields.io" alt="Python">
+  <img src="https://shields.io" alt="License">
+</p>
 
 🇺🇸 <a href="#english">Read in English</a> | 🇷🇺 <a href="#русский">Читать на русском</a>
 
@@ -132,7 +134,7 @@ This project is licensed under the **MIT** License. You are free to use and modi
 > 🚀 **Новые виджеты уже на подходе!** Библиотека активно развивается и пополняется. Есть крутая идея для нового элемента? Смело открывай Issue или пиши мне!
 
 ### 📥 Установка (Installation)
-Установите библиотеку через terminal:
+Установите библиотеку через терминал:
 ```bash
 pip install ctkplus
 ```
