@@ -2,6 +2,10 @@ name: Update README Table
 
 on:
   push:
+    branches:
+      - main
+    tags-ignore:
+      - 'v*'
     paths:
       - 'wget-json.json'
 
@@ -31,6 +35,6 @@ jobs:
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
           git add README.md
           git diff-index --quiet HEAD || git commit -m "Auto-update README widget table [skip ci]" && git push
