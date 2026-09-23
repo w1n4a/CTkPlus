@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "CTkPlus"
-version = "1.0.6"
+version = "1.0.7"
 description = "vidgets for customtkinter"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -19,3 +19,6 @@ Repository = "https://github.com/w1n4a/CTkPlus"
 
 [project.scripts]
 ctkplus-wget = "ctkplus.wget:start"
+
+[tool.setuptools.packages.find]
+include = ["ctkplus"]
