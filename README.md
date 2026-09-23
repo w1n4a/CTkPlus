@@ -70,36 +70,8 @@ This project is licensed under the **MIT** License. You are free to use and modi
 - **⚡ Простая настройка** - библиотека легко подключается к проекту и работает без сложных костылей.
 
 ### 🍱 Доступные виджеты (Widgets List)
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="left" width="30%">Виджет</th>
-      <th align="left">Описание</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>CTkSpinBox</strong></td>
-      <td>Пошаговый выбор чисел с кнопками-стрелочками</td>
-    </tr>
-    <tr>
-      <td><strong>CTkSelector</strong></td>
-      <td>Удобный элемент для выбора нужного варианта</td>
-    </tr>
-    <tr>
-      <td><strong>CTkMultiList</strong></td>
-      <td>Список со множественным выбором для сложных данных</td>
-    </tr>
-    <tr>
-      <td><strong>CTkEntry</strong></td>
-      <td>Прокачанное поле ввода со встроенными командами через StringVar</td>
-    </tr>
-    <tr>
-      <td><strong>CTkEntryButton</strong></td>
-      <td>Удобное текстовое поле, совмещенное с кнопкой действия</td>
-    </tr>
-  </tbody>
-</table>
+<!-- WIDGET_TABLE_START -->
+<!-- WIDGET_TABLE_END -->
 
 > 🚀 **Новые виджеты уже на подходе!** Библиотека активно развивается и пополняется. Есть крутая идея для нового элемента? Смело открывай Issue или пиши мне!
 
