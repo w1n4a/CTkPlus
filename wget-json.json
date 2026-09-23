@@ -1,3 +1,7 @@
 {
-  "lol":"lol"
+  "CTkSpinBox": "Step-by-step number selector with arrow buttons",
+  "CTkSelector": "Convenient widget for selecting options",
+  "CTkMultiList": "Multi-selection list for complex data handling",
+  "CTkEntry": "Upgraded text input with built-in StringVar commands",
+  "CTkEntryButton": "Combined entry field with an attached action button"
 }
