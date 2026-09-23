@@ -62,6 +62,5 @@ class App(tk.CTk):
         self.rem()
         self.upd(r)
 
-
-if __name__ == '__main__':
-    App().mainloop()
+    def start(self):
+        App().mainloop()
