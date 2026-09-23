@@ -62,5 +62,5 @@ class App(tk.CTk):
         self.rem()
         self.upd(r)
 
-    def start(self):
-        App().mainloop()
+def start():
+    App().mainloop()
