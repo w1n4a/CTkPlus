@@ -14,15 +14,15 @@ class CTkEntryButton(tk.CTkFrame):
         return self.entry.get()
 
 class CTkSpinBox(tk.CTkFrame):
-    def __init__(self, master, command=lambda *args: None, step=1, range=('inf','inf'), start_num=0, width=140, height=28, border_width=1, bg_color="transparent", fg_color="transparent", entry_fg_color=None, border_color=None, text_color=None, font=None, button_fg_color=None, button_hover_color=None, button_text_color=None, **kwargs):
+    def __init__(self, master, command=lambda *args: None, step=1, range=('inf','inf'), current=0, editable=False, width=140, height=28, border_width=1, bg_color="transparent", fg_color="transparent", entry_fg_color=None, border_color=None, text_color=None, font=None, button_fg_color=None, button_hover_color=None, button_text_color=None, **kwargs):
         super().__init__(master, bg_color=bg_color, fg_color=fg_color, **kwargs)
 
         self.range = range
 
-        self.string = tk.StringVar(value=str(start_num))
+        self.string = tk.StringVar(value=str(current))
         self.string.trace_add('write',command)
 
-        self.entry = tk.CTkEntry(self, width=width, height=height, corner_radius=0, border_width=border_width, bg_color="transparent", fg_color=entry_fg_color, border_color=border_color, text_color=text_color, font=font, textvariable=self.string)
+        self.entry = tk.CTkEntry(self, state='readonly' if not editable else 'normal', width=width, height=height, corner_radius=0, border_width=border_width, bg_color="transparent", fg_color=entry_fg_color, border_color=border_color, text_color=text_color, font=font, textvariable=self.string)
         self.entry.pack(side='left')
 
         self.frame = tk.CTkFrame(self)
@@ -44,7 +44,7 @@ class CTkSpinBox(tk.CTkFrame):
                 self.string.set(self.range[1])
                 return self.string.get()
         except:
-            raise TypeError
+            raise TypeError()
 
     def minus(self, *args: any):
         try:
@@ -56,7 +56,7 @@ class CTkSpinBox(tk.CTkFrame):
                 self.string.set(self.range[0])
                 return self.string.get()
         except:
-            raise TypeError
+            raise TypeError()
 
     def get(self):
         return self.string.get()
