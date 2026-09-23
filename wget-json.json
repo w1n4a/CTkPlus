@@ -3,6 +3,5 @@
   "CTkSelector": "Convenient widget for selecting options",
   "CTkMultiList": "Multi-selection list for complex data handling",
   "CTkEntry": "Upgraded text input with built-in StringVar commands",
-  "CTkEntryButton": "Combined entry field with an attached action button",
-  "lol":"lol"
+  "CTkEntryButton": "Combined entry field with an attached action button"
 }
