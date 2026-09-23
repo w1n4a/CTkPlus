@@ -25,7 +25,7 @@
 
 ### 🍱 Available Widgets
 <!-- WIDGET_TABLE_START -->
-<table width="100%"><thead><tr><th align="left" width="30%">Widget</th><th align="left">Description</th></tr></thead><tbody><tr><td><strong>CTkSpinBox</strong></td><td>Step-by-step number selector with arrow buttons</td></tr><tr><td><strong>CTkSelector</strong></td><td>Convenient widget for selecting options</td></tr><tr><td><strong>CTkMultiList</strong></td><td>Multi-selection list for complex data handling</td></tr><tr><td><strong>CTkEntry</strong></td><td>Upgraded text input with built-in StringVar commands</td></tr><tr><td><strong>CTkEntryButton</strong></td><td>Combined entry field with an attached action button</td></tr><tr><td><strong>lol</strong></td><td>lol</td></tr></tbody></table>
+<table width="100%"><thead><tr><th align="left" width="30%">Widget</th><th align="left">Description</th></tr></thead><tbody><tr><td><strong>CTkSpinBox</strong></td><td>Step-by-step number selector with arrow buttons</td></tr><tr><td><strong>CTkSelector</strong></td><td>Convenient widget for selecting options</td></tr><tr><td><strong>CTkMultiList</strong></td><td>Multi-selection list for complex data handling</td></tr><tr><td><strong>CTkEntry</strong></td><td>Upgraded text input with built-in StringVar commands</td></tr><tr><td><strong>CTkEntryButton</strong></td><td>Combined entry field with an attached action button</td></tr></tbody></table>
 <!-- WIDGET_TABLE_END -->
 
 > 🚀 **More widgets coming soon!** The library is actively expanding. If you have an idea for a cool new widget, feel free to open an Issue or write to me!
